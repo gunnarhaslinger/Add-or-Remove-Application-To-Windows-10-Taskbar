@@ -8,7 +8,7 @@ Tested with: Windows 10 v1709 (German)
 
 ## Usage
 ```powershell
-Import-Module .\Taskbarpinning.ps1
+Import-Module .\TaskbarPinning.ps1
 
 # Add Taskbar-Pinning
 Add-TaskbarPinning("C:\Windows\Notepad.exe")
