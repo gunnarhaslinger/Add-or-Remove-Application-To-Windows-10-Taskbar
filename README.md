@@ -4,6 +4,7 @@
 
 This small powershell Script adds or removes your own Applications from / to Windows 10 Taskbar (Taskbar-Pinning). The functionality is a bit tricky in Windows 10 as Microsoft doesn't like to offer Applications to pin themselves during installation.
 
+Script: [TaskbarPinning.ps1](TaskbarPinning.ps1)
 Tested with: Windows 10 v1709 (German)
 
 ## Usage
