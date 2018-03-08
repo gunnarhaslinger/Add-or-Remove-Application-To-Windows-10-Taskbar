@@ -6,7 +6,7 @@ This small powershell Script adds or removes your own Applications from / to Win
 
 Script: [TaskbarPinning.ps1](TaskbarPinning.ps1)
 
-Tested with: Windows 10 v1709 (German)
+Tested with: Windows 10 v1709 (English & German)
 
 ## Usage
 ```powershell
