@@ -41,19 +41,20 @@ function Get-TaskbarPinning ($PinningTarget) {
    $ExistingTargets -contains $Target
 }
 
-function Set-TaskbarPinning ($PinningTarget) {
+function Add-TaskbarPinning ($PinningTarget) {
      if (Get-TaskbarPinning($PinningTarget)) { Write-Host "Pinning for $PinningTarget already exists!" } 
      else {Change-TaskbarPinning($PinningTarget)}
 }
 
-function Delete-TaskbarPinning ($PinningTarget) {
+function Remove-TaskbarPinning ($PinningTarget) {
      if (Get-TaskbarPinning($PinningTarget)) { Change-TaskbarPinning($PinningTarget) } 
      else { Write-Host "Pinning for $PinningTarget does not exist!" }
 }
+
 
 
 # Add Taskbar-Pinning
 Set-TaskbarPinning("C:\Windows\Notepad.exe")
 
 # Remove Taskbar-Pinning
-Delete-TaskbarPinning("C:\Windows\Notepad.exe")
+# Delete-TaskbarPinning("C:\Windows\Notepad.exe")
