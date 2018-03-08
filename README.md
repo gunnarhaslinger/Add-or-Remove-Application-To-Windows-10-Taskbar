@@ -3,7 +3,7 @@ Add or Remove Applications from / to Windows 10 Tasbar, Taskbar-Pinning, Pin, Un
 
 ## Usage
 ```powershell
-. .\Taskbarpinning.ps1
+Import-Module .\Taskbarpinning.ps1
 
 # Add Taskbar-Pinning
 Add-TaskbarPinning("C:\Windows\Notepad.exe")
