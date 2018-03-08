@@ -1,5 +1,5 @@
-# Add or Remove Application from/to Windows 10 Taskbar (Taskbar-Pinning)
-This small powershell Script adds or removes your own Applications from / to Windows 10 Taskbar.
+# Add or Remove Application from/to Windows 10 Taskbar (Pinning)
+This small powershell Script adds or removes your own Applications from / to Windows 10 Taskbar (Taskbar-Pinning).
 
 Tested with: Windows 10 v1709 (German)
 
