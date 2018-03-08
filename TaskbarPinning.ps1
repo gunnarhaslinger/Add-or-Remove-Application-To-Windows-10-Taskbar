@@ -54,7 +54,7 @@ function Remove-TaskbarPinning ($PinningTarget) {
 
 
 # Add Taskbar-Pinning
-Set-TaskbarPinning("C:\Windows\Notepad.exe")
+# Add-TaskbarPinning("C:\Windows\Notepad.exe")
 
 # Remove Taskbar-Pinning
-# Delete-TaskbarPinning("C:\Windows\Notepad.exe")
+# Remove-TaskbarPinning("C:\Windows\Notepad.exe")
