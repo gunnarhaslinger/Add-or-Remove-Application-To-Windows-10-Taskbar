@@ -38,16 +38,16 @@ function Get-TaskbarPinningList {
 
 function Get-TaskbarPinning ($PinningTarget) {
    $ExistingTargets = (Get-TaskbarPinningList).Target
-   $ExistingTargets -contains $Target
+   $ExistingTargets -contains $PinningTarget
 }
 
 function Add-TaskbarPinning ($PinningTarget) {
      if (Get-TaskbarPinning($PinningTarget)) { Write-Host "Pinning for $PinningTarget already exists!" } 
-     else {Change-TaskbarPinning($PinningTarget)}
+     else {Toggle-TaskbarPinning($PinningTarget)}
 }
 
 function Remove-TaskbarPinning ($PinningTarget) {
-     if (Get-TaskbarPinning($PinningTarget)) { Change-TaskbarPinning($PinningTarget) } 
+     if (Get-TaskbarPinning($PinningTarget)) { Toggle-TaskbarPinning($PinningTarget) } 
      else { Write-Host "Pinning for $PinningTarget does not exist!" }
 }
 
