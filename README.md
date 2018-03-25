@@ -8,7 +8,7 @@ Script: [TaskbarPinning.ps1](TaskbarPinning.ps1)
 
 Tested with: Windows 10 v1709 (English & German)
 
-## Usage: Examples Variant 1: Pin / Unpin regular Win32/64 Executables (no UWP Apps)
+## Usage: Variant 1: Pin / Unpin regular Executables (no UWP Apps)
 ```powershell
 Import-Module .\TaskbarPinning.ps1
 
@@ -19,7 +19,7 @@ Add-TaskbarPinning("C:\Windows\Notepad.exe")
 Remove-TaskbarPinning("C:\Windows\Notepad.exe")
 ```
 
-## Usage: Examples Variant 2: Pin / Unpin Applications and UWP Apps already listed in Start Menu
+## Usage: Variant 2: Pin / Unpin Applications and UWP Apps already listed in Start Menu
 Note: Handling Add-/Remove-TaskbarPinningApp can only be done by Processes named `explorer`
 Workaround to do this with Powershell: Make a copy of PowerShell named explorer.exe in Temp-Directory and use this
 ```powershell
